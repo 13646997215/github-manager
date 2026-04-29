@@ -1,0 +1,19 @@
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Runtime output
+release/
+reports/
+*.log
+hermes.log
+
+# Local state / temp
+.tmp/
+.cache/
+
+# Editor / OS
+.DS_Store
+Thumbs.db

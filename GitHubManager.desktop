@@ -1,0 +1,17 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=GitHub Manager Pro
+Name[zh_CN]=GitHub 管理器 Pro
+GenericName=GitHub Terminal Workspace
+GenericName[zh_CN]=GitHub 终端工作台
+Comment=中文 GitHub 文件、同步与仓库管理终端工作台
+Comment[zh_CN]=中文 GitHub 文件、同步与仓库管理终端工作台
+Exec=gnome-terminal --wait --title=GitHub\ Manager\ Pro --geometry=132x38 --zoom=1.0 -- /home/hanhan/Desktop/github/bin/launch-github-manager.sh
+Path=/home/hanhan/Desktop/github
+Terminal=false
+Icon=/home/hanhan/Desktop/github/assets/github-manager.svg
+Categories=Development;
+Keywords=github;git;file;manager;upload;sync;
+StartupNotify=false
+X-GNOME-Autostart-enabled=false

@@ -1,0 +1,5 @@
+default_branch: main
+default_commit_message: Upload via github-manager
+default_repository: ""
+preferred_upload_strategy: git
+use_colors: true
