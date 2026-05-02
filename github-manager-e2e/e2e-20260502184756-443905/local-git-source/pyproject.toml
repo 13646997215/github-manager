@@ -1,0 +1,36 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ros2-agent-platform"
+version = "0.2.0"
+description = "ROS2-Agent: repository-backed ROS2 engineering platform with runtime diagnosis, workflow benchmarks, and terminal launcher"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+authors = [{ name = "hanhan" }]
+dependencies = []
+
+[project.scripts]
+ros2-agent = "tools.cli:main"
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests"]
+markers = [
+  "asyncio: marks async Textual interaction tests requiring pytest-asyncio",
+]
+
+[tool.ruff]
+line-length = 100
+target-version = "py310"
+exclude = ["examples", "benchmarks/fixtures"]
+
+[tool.ruff.lint]
+select = ["E", "F", "I"]
+
+[tool.mypy]
+python_version = "3.10"
+ignore_missing_imports = true
+exclude = ["examples/", "benchmarks/fixtures/"]

@@ -1,0 +1,12 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "DiagnosisReport",
+  "type": "object",
+  "properties": {
+    "domain": {"type": "string"},
+    "findings": {"type": "array"},
+    "candidate_causes": {"type": "array"},
+    "recommended_next_probe": {"type": ["object", "null"]},
+    "recovery_hints": {"type": "array"}
+  }
+}

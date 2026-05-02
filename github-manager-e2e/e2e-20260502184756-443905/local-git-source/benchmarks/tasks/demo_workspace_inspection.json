@@ -1,0 +1,8 @@
+{
+  "task": "demo_workspace_inspection",
+  "required_strings": [
+    "demo_nodes",
+    "ament_python",
+    "build_workspace"
+  ]
+}

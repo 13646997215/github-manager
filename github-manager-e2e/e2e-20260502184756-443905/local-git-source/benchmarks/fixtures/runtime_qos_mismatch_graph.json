@@ -1,0 +1,46 @@
+{
+  "nodes": [
+    {
+      "name": "lidar_driver",
+      "namespace": "/robot1",
+      "publishers": 1,
+      "subscribers": 0
+    },
+    {
+      "name": "localization_filter",
+      "namespace": "/robot1",
+      "publishers": 1,
+      "subscribers": 1
+    }
+  ],
+  "topics": [
+    {
+      "name": "/robot1/scan",
+      "msg_type": "sensor_msgs/msg/LaserScan",
+      "publisher_count": 1,
+      "subscriber_count": 1,
+      "qos": {
+        "publisher": "best_effort",
+        "subscriber": "reliable"
+      }
+    },
+    {
+      "name": "/robot1/odom",
+      "msg_type": "nav_msgs/msg/Odometry",
+      "publisher_count": 1,
+      "subscriber_count": 0,
+      "qos": {
+        "publisher": "reliable",
+        "subscriber": null
+      }
+    }
+  ],
+  "warnings": [
+    "qos_mismatch:/robot1/scan",
+    "downstream_localization_starved"
+  ],
+  "next_actions": [
+    "align_qos_profiles",
+    "verify_scan_subscriber_runtime"
+  ]
+}

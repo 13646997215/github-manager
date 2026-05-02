@@ -1,0 +1,9 @@
+{
+  "environment": {
+    "ros_distro": "iron",
+    "expected_ros_distro": "humble",
+    "underlay_paths": ["/opt/ros/humble"],
+    "overlay_paths": ["/tmp/other_ws/install"]
+  },
+  "workspace": {"looks_like_ros2_workspace": true, "metadata_issues": []}
+}

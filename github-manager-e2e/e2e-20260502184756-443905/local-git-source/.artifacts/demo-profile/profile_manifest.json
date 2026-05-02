@@ -1,0 +1,5 @@
+{
+  "profile_name": "ros2-agent-demo",
+  "project_root": "/home/hanhan/Desktop/ROS2-Agent",
+  "installed_from": "tools.command_runtime profile install"
+}

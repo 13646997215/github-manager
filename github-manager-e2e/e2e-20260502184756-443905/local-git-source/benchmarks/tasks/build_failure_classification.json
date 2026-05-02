@@ -1,0 +1,8 @@
+{
+  "task": "build_failure_classification",
+  "required_strings": [
+    "bad_pkg",
+    "compile/cpp",
+    "retry_failed_packages"
+  ]
+}

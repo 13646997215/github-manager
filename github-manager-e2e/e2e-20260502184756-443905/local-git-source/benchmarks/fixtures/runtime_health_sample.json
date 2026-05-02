@@ -1,0 +1,20 @@
+{
+  "controllers": [
+    {
+      "name": "joint_state_broadcaster",
+      "state": "active",
+      "claimed_interfaces": 0
+    },
+    {
+      "name": "arm_controller",
+      "state": "inactive",
+      "claimed_interfaces": 6
+    }
+  ],
+  "tf": {
+    "frame_count": 4,
+    "stale_frames": ["tool0"]
+  },
+  "warnings": ["inactive controller detected", "stale tf frame detected"],
+  "next_actions": ["inspect_controller_manager", "check_tf_tree_freshness"]
+}

@@ -1,0 +1,795 @@
+{"command": ["help"], "command_id": "help", "status": "success", "summary": "已生成命令目录与说明。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["doctor"], "command_id": "doctor", "status": "success", "summary": "已完成平台体检。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["inspect"], "command_id": "inspect", "status": "success", "summary": "已完成平台巡检。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["workflow"], "command_id": "workflow", "status": "success", "summary": "已列出 workflow 资产。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["report"], "command_id": "report", "status": "success", "summary": "已整理报告资产入口。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["settings"], "command_id": "settings", "status": "success", "summary": "已展示当前只读设置说明。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["quality"], "command_id": "quality-gate", "status": "blocked", "summary": "quality 命令属于重量级验证流程，需在 TUI 外部运行。", "exit_code": 2, "execution_mode": "heavyweight"}
+{"command": ["unknown"], "command_id": null, "status": "not_implemented", "summary": "暂未实现该命令执行入口： ['unknown']", "exit_code": 1, "execution_mode": "lightweight"}
+{"command": ["status"], "command_id": "status", "status": "success", "summary": "已收集当前平台状态。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["doctor"], "command_id": "doctor", "status": "success", "summary": "已完成平台体检。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["status"], "command_id": "status", "status": "success", "summary": "已收集当前平台状态。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["history"], "command_id": "history", "status": "success", "summary": "已读取最近命令历史。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["settings"], "command_id": "settings", "status": "success", "summary": "已展示当前只读设置说明。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["status"], "command_id": "status", "status": "success", "summary": "已收集当前平台状态。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["capabilities"], "command_id": "capabilities", "status": "success", "summary": "已列出 collectors 与 diagnosers。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["help"], "command_id": "help", "status": "success", "summary": "已生成命令目录与说明。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["status"], "command_id": "status", "status": "success", "summary": "已收集当前平台状态。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["diagnose", "fusion"], "command_id": "diagnose-fusion", "status": "success", "summary": "已完成融合诊断。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["doctor"], "command_id": "doctor", "status": "success", "summary": "已完成平台体检。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["inspect"], "command_id": "inspect", "status": "success", "summary": "已完成平台巡检。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["history"], "command_id": "history", "status": "success", "summary": "已读取最近命令历史。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["workflow"], "command_id": "workflow", "status": "success", "summary": "已列出 workflow 资产。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["report"], "command_id": "report", "status": "success", "summary": "已整理报告资产入口。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["settings"], "command_id": "settings", "status": "success", "summary": "已展示当前只读设置说明。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["help"], "command_id": "help", "status": "success", "summary": "已生成命令目录与说明。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["status"], "command_id": "status", "status": "success", "summary": "已收集当前平台状态。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["quality"], "command_id": "quality-gate", "status": "blocked", "summary": "quality 命令属于重量级验证流程，需在 TUI 外部运行。", "exit_code": 2, "execution_mode": "heavyweight"}
+{"command": ["collect", "env"], "command_id": "quick-env-collect", "status": "success", "summary": "已完成环境采集。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["collect", "workspace"], "command_id": "collect-workspace", "status": "success", "summary": "已完成工作区采集。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["collect", "graph"], "command_id": "collect-graph", "status": "success", "summary": "已完成运行图采集。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["collect", "tf"], "command_id": "collect-tf", "status": "success", "summary": "已完成 TF 采集。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["collect", "controller"], "command_id": "collect-controller", "status": "success", "summary": "已完成控制器采集。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["diagnose", "env"], "command_id": "diagnose-env", "status": "success", "summary": "已完成环境诊断。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["diagnose", "workspace"], "command_id": "diagnose-workspace", "status": "success", "summary": "已完成工作区诊断。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["diagnose", "runtime"], "command_id": "diagnose-runtime", "status": "success", "summary": "已完成 runtime 图诊断。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["diagnose", "tf"], "command_id": "diagnose-tf", "status": "success", "summary": "已完成 TF 诊断。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["diagnose", "controller"], "command_id": "diagnose-controller", "status": "success", "summary": "已完成控制器诊断。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["diagnose", "fusion"], "command_id": "diagnose-fusion", "status": "success", "summary": "已完成融合诊断。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["benchmark", "workflow"], "command_id": "benchmark-workflow", "status": "blocked", "summary": "workflow benchmark 属于重量级流程，需在 TUI 外部运行。", "exit_code": 2, "execution_mode": "heavyweight"}
+{"command": ["benchmark", "recovery"], "command_id": "benchmark-recovery", "status": "success", "summary": "已读取 recovery benchmark 入口资产。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["runbook", "list"], "command_id": "runbook-list", "status": "success", "summary": "已列出 runbook 与 broken workflow 资产。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["validate", "repo"], "command_id": "validate-repo", "status": "blocked", "summary": "repository validation 属于重量级流程，需在 TUI 外部运行。", "exit_code": 2, "execution_mode": "heavyweight"}
+{"command": ["profile", "install"], "command_id": "profile-install", "status": "success", "summary": "已完成 demo profile 安装。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["profile", "verify"], "command_id": "profile-verify", "status": "success", "summary": "已检查 profile 安装状态。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["logs", "deployment"], "command_id": "logs-deployment", "status": "success", "summary": "已读取部署执行日志。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["help"], "command_id": "help", "status": "success", "summary": "已生成命令目录与说明。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["status"], "command_id": "status", "status": "success", "summary": "已收集当前平台状态。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["collect", "env"], "command_id": "quick-env-collect", "status": "success", "summary": "已完成环境采集。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["help"], "command_id": "help", "status": "success", "summary": "已生成命令目录与说明。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["doctor"], "command_id": "doctor", "status": "success", "summary": "已完成平台体检。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["inspect"], "command_id": "inspect", "status": "success", "summary": "已完成平台巡检。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["workflow"], "command_id": "workflow", "status": "success", "summary": "已列出 workflow 资产。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["report"], "command_id": "report", "status": "success", "summary": "已整理报告资产入口。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["settings"], "command_id": "settings", "status": "success", "summary": "已展示当前只读设置说明。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["quality"], "command_id": "quality-gate", "status": "blocked", "summary": "quality 命令属于重量级验证流程，需在 TUI 外部运行。", "exit_code": 2, "execution_mode": "heavyweight"}
+{"command": ["unknown"], "command_id": null, "status": "not_implemented", "summary": "暂未实现该命令执行入口： ['unknown']", "exit_code": 1, "execution_mode": "lightweight"}
+{"command": ["status"], "command_id": "status", "status": "success", "summary": "已收集当前平台状态。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["doctor"], "command_id": "doctor", "status": "success", "summary": "已完成平台体检。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["status"], "command_id": "status", "status": "success", "summary": "已收集当前平台状态。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["history"], "command_id": "history", "status": "success", "summary": "已读取最近命令历史。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["settings"], "command_id": "settings", "status": "success", "summary": "已展示当前只读设置说明。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["status"], "command_id": "status", "status": "success", "summary": "已收集当前平台状态。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["capabilities"], "command_id": "capabilities", "status": "success", "summary": "已列出 collectors 与 diagnosers。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["help"], "command_id": "help", "status": "success", "summary": "已生成命令目录与说明。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["status"], "command_id": "status", "status": "success", "summary": "已收集当前平台状态。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["diagnose", "fusion"], "command_id": "diagnose-fusion", "status": "success", "summary": "已完成融合诊断。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["doctor"], "command_id": "doctor", "status": "success", "summary": "已完成平台体检。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["inspect"], "command_id": "inspect", "status": "success", "summary": "已完成平台巡检。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["history"], "command_id": "history", "status": "success", "summary": "已读取最近命令历史。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["workflow"], "command_id": "workflow", "status": "success", "summary": "已列出 workflow 资产。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["report"], "command_id": "report", "status": "success", "summary": "已整理报告资产入口。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["settings"], "command_id": "settings", "status": "success", "summary": "已展示当前只读设置说明。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["help"], "command_id": "help", "status": "success", "summary": "已生成命令目录与说明。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["status"], "command_id": "status", "status": "success", "summary": "已收集当前平台状态。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["quality"], "command_id": "quality-gate", "status": "blocked", "summary": "quality 命令属于重量级验证流程，需在 TUI 外部运行。", "exit_code": 2, "execution_mode": "heavyweight"}
+{"command": ["collect", "env"], "command_id": "quick-env-collect", "status": "success", "summary": "已完成环境采集。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["collect", "workspace"], "command_id": "collect-workspace", "status": "success", "summary": "已完成工作区采集。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["collect", "graph"], "command_id": "collect-graph", "status": "success", "summary": "已完成运行图采集。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["collect", "tf"], "command_id": "collect-tf", "status": "success", "summary": "已完成 TF 采集。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["collect", "controller"], "command_id": "collect-controller", "status": "success", "summary": "已完成控制器采集。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["diagnose", "env"], "command_id": "diagnose-env", "status": "success", "summary": "已完成环境诊断。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["diagnose", "workspace"], "command_id": "diagnose-workspace", "status": "success", "summary": "已完成工作区诊断。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["diagnose", "runtime"], "command_id": "diagnose-runtime", "status": "success", "summary": "已完成 runtime 图诊断。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["diagnose", "tf"], "command_id": "diagnose-tf", "status": "success", "summary": "已完成 TF 诊断。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["diagnose", "controller"], "command_id": "diagnose-controller", "status": "success", "summary": "已完成控制器诊断。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["diagnose", "fusion"], "command_id": "diagnose-fusion", "status": "success", "summary": "已完成融合诊断。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["benchmark", "workflow"], "command_id": "benchmark-workflow", "status": "blocked", "summary": "workflow benchmark 属于重量级流程，需在 TUI 外部运行。", "exit_code": 2, "execution_mode": "heavyweight"}
+{"command": ["benchmark", "recovery"], "command_id": "benchmark-recovery", "status": "success", "summary": "已读取 recovery benchmark 入口资产。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["runbook", "list"], "command_id": "runbook-list", "status": "success", "summary": "已列出 runbook 与 broken workflow 资产。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["validate", "repo"], "command_id": "validate-repo", "status": "blocked", "summary": "repository validation 属于重量级流程，需在 TUI 外部运行。", "exit_code": 2, "execution_mode": "heavyweight"}
+{"command": ["profile", "install"], "command_id": "profile-install", "status": "success", "summary": "已完成 demo profile 安装。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["profile", "verify"], "command_id": "profile-verify", "status": "success", "summary": "已检查 profile 安装状态。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["logs", "deployment"], "command_id": "logs-deployment", "status": "success", "summary": "已读取部署执行日志。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["help"], "command_id": "help", "status": "success", "summary": "已生成命令目录与说明。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["status"], "command_id": "status", "status": "success", "summary": "已收集当前平台状态。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["collect", "env"], "command_id": "quick-env-collect", "status": "success", "summary": "已完成环境采集。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["help"], "command_id": "help", "status": "success", "summary": "已生成命令目录与说明。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["doctor"], "command_id": "doctor", "status": "success", "summary": "已完成平台体检。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["inspect"], "command_id": "inspect", "status": "success", "summary": "已完成平台巡检。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["workflow"], "command_id": "workflow", "status": "success", "summary": "已列出 workflow 资产。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["report"], "command_id": "report", "status": "success", "summary": "已整理报告资产入口。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["settings"], "command_id": "settings", "status": "success", "summary": "已展示当前只读设置说明。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["inspect", "workspace"], "command_id": "inspect-workspace", "status": "success", "summary": "已完成工作区巡检。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["doctor", "ros2"], "command_id": "doctor-ros2", "status": "success", "summary": "已完成 ROS2 体检。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["quality"], "command_id": "quality-gate", "status": "blocked", "summary": "quality 命令属于重量级验证流程，需在 TUI 外部运行。", "exit_code": 2, "execution_mode": "heavyweight"}
+{"command": ["unknown"], "command_id": null, "status": "not_implemented", "summary": "暂未实现该命令执行入口： ['unknown']", "exit_code": 1, "execution_mode": "lightweight"}
+{"command": ["status"], "command_id": "status", "status": "success", "summary": "已收集当前平台状态。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["doctor"], "command_id": "doctor", "status": "success", "summary": "已完成平台体检。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["status"], "command_id": "status", "status": "success", "summary": "已收集当前平台状态。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["history"], "command_id": "history", "status": "success", "summary": "已读取最近命令历史。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["settings"], "command_id": "settings", "status": "success", "summary": "已展示当前只读设置说明。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["status"], "command_id": "status", "status": "success", "summary": "已收集当前平台状态。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["inspect", "workspace"], "command_id": "inspect-workspace", "status": "success", "summary": "已完成工作区巡检。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["inspect", "graph"], "command_id": "inspect-graph", "status": "success", "summary": "已完成运行图巡检。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["inspect", "tf"], "command_id": "inspect-tf", "status": "success", "summary": "已完成 TF 巡检。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["inspect", "controller"], "command_id": "inspect-controller", "status": "success", "summary": "已完成控制器巡检。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["doctor", "ros2"], "command_id": "doctor-ros2", "status": "success", "summary": "已完成 ROS2 体检。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["doctor", "workspace"], "command_id": "doctor-workspace", "status": "success", "summary": "已完成工作区体检。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["doctor", "tf"], "command_id": "doctor-tf", "status": "success", "summary": "已完成 TF 体检。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["doctor", "control"], "command_id": "doctor-control", "status": "success", "summary": "已完成控制器体检。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["suggest-fix", "runtime"], "command_id": "suggest-fix-runtime", "status": "success", "summary": "已生成 runtime 图修复建议。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["suggest-fix", "tf"], "command_id": "suggest-fix-tf", "status": "success", "summary": "已生成 TF 修复建议。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["suggest-fix", "controller"], "command_id": "suggest-fix-controller", "status": "success", "summary": "已生成控制器修复建议。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["trace", "failure"], "command_id": "trace-failure", "status": "success", "summary": "已追踪当前主要失败线索。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["replay", "evidence"], "command_id": "replay-evidence", "status": "success", "summary": "已整理 evidence replay 入口。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["replay", "workflow"], "command_id": "replay-workflow", "status": "success", "summary": "已整理 workflow replay 入口。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["compare", "snapshots"], "command_id": "compare-snapshots", "status": "success", "summary": "已生成关键快照对比摘要。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["capabilities"], "command_id": "capabilities", "status": "success", "summary": "已列出 collectors 与 diagnosers。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["help"], "command_id": "help", "status": "success", "summary": "已生成命令目录与说明。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["status"], "command_id": "status", "status": "success", "summary": "已收集当前平台状态。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["inspect", "workspace"], "command_id": "inspect-workspace", "status": "success", "summary": "已完成工作区巡检。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["inspect", "graph"], "command_id": "inspect-graph", "status": "success", "summary": "已完成运行图巡检。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["inspect", "tf"], "command_id": "inspect-tf", "status": "success", "summary": "已完成 TF 巡检。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["inspect", "controller"], "command_id": "inspect-controller", "status": "success", "summary": "已完成控制器巡检。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["doctor", "ros2"], "command_id": "doctor-ros2", "status": "success", "summary": "已完成 ROS2 体检。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["doctor", "workspace"], "command_id": "doctor-workspace", "status": "success", "summary": "已完成工作区体检。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["doctor", "tf"], "command_id": "doctor-tf", "status": "success", "summary": "已完成 TF 体检。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["doctor", "control"], "command_id": "doctor-control", "status": "success", "summary": "已完成控制器体检。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["suggest-fix", "runtime"], "command_id": "suggest-fix-runtime", "status": "success", "summary": "已生成 runtime 图修复建议。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["suggest-fix", "tf"], "command_id": "suggest-fix-tf", "status": "success", "summary": "已生成 TF 修复建议。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["suggest-fix", "controller"], "command_id": "suggest-fix-controller", "status": "success", "summary": "已生成控制器修复建议。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["trace", "failure"], "command_id": "trace-failure", "status": "success", "summary": "已追踪当前主要失败线索。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["replay", "evidence"], "command_id": "replay-evidence", "status": "success", "summary": "已整理 evidence replay 入口。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["replay", "workflow"], "command_id": "replay-workflow", "status": "success", "summary": "已整理 workflow replay 入口。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["compare", "snapshots"], "command_id": "compare-snapshots", "status": "success", "summary": "已生成关键快照对比摘要。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["help"], "command_id": "help", "status": "success", "summary": "已生成命令目录与说明。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["doctor"], "command_id": "doctor", "status": "success", "summary": "已完成平台体检。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["inspect"], "command_id": "inspect", "status": "success", "summary": "已完成平台巡检。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["workflow"], "command_id": "workflow", "status": "success", "summary": "已列出 workflow 资产。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["report"], "command_id": "report", "status": "success", "summary": "已整理报告资产入口。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["settings"], "command_id": "settings", "status": "success", "summary": "已展示当前只读设置说明。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["inspect", "workspace"], "command_id": "inspect-workspace", "status": "success", "summary": "已完成工作区巡检。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["doctor", "ros2"], "command_id": "doctor-ros2", "status": "success", "summary": "已完成 ROS2 体检。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["quality"], "command_id": "quality-gate", "status": "blocked", "summary": "quality 命令属于重量级验证流程，需在 TUI 外部运行。", "exit_code": 2, "execution_mode": "heavyweight"}
+{"command": ["unknown"], "command_id": null, "status": "not_implemented", "summary": "暂未实现该命令执行入口： ['unknown']", "exit_code": 1, "execution_mode": "lightweight"}
+{"command": ["status"], "command_id": "status", "status": "success", "summary": "已收集当前平台状态。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["capabilities"], "command_id": "capabilities", "status": "success", "summary": "已列出 collectors 与 diagnosers。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["help"], "command_id": "help", "status": "success", "summary": "已生成命令目录与说明。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["status"], "command_id": "status", "status": "success", "summary": "已收集当前平台状态。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["help"], "command_id": "help", "status": "success", "summary": "已生成命令目录与说明。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["doctor"], "command_id": "doctor", "status": "success", "summary": "已完成平台体检。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["inspect"], "command_id": "inspect", "status": "success", "summary": "已完成平台巡检。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["workflow"], "command_id": "workflow", "status": "success", "summary": "已列出 workflow 资产。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["report"], "command_id": "report", "status": "success", "summary": "已整理报告资产入口。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["settings"], "command_id": "settings", "status": "success", "summary": "已展示当前只读设置说明。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["inspect", "workspace"], "command_id": "inspect-workspace", "status": "success", "summary": "已完成工作区巡检。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["doctor", "ros2"], "command_id": "doctor-ros2", "status": "success", "summary": "已完成 ROS2 体检。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["quality"], "command_id": "quality-gate", "status": "blocked", "summary": "quality 命令属于重量级验证流程，需在 TUI 外部运行。", "exit_code": 2, "execution_mode": "heavyweight"}
+{"command": ["unknown"], "command_id": null, "status": "not_implemented", "summary": "暂未实现该命令执行入口： ['unknown']", "exit_code": 1, "execution_mode": "lightweight"}
+{"command": ["status"], "command_id": "status", "status": "success", "summary": "已收集当前平台状态。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["doctor"], "command_id": "doctor", "status": "success", "summary": "已完成平台体检。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["status"], "command_id": "status", "status": "success", "summary": "已收集当前平台状态。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["history"], "command_id": "history", "status": "success", "summary": "已读取最近命令历史。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["settings"], "command_id": "settings", "status": "success", "summary": "已展示当前只读设置说明。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["status"], "command_id": "status", "status": "success", "summary": "已收集当前平台状态。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["inspect", "workspace"], "command_id": "inspect-workspace", "status": "success", "summary": "已完成工作区巡检。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["inspect", "graph"], "command_id": "inspect-graph", "status": "success", "summary": "已完成运行图巡检。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["inspect", "tf"], "command_id": "inspect-tf", "status": "success", "summary": "已完成 TF 巡检。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["inspect", "controller"], "command_id": "inspect-controller", "status": "success", "summary": "已完成控制器巡检。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["doctor", "ros2"], "command_id": "doctor-ros2", "status": "success", "summary": "已完成 ROS2 体检。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["doctor", "workspace"], "command_id": "doctor-workspace", "status": "success", "summary": "已完成工作区体检。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["doctor", "tf"], "command_id": "doctor-tf", "status": "success", "summary": "已完成 TF 体检。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["doctor", "control"], "command_id": "doctor-control", "status": "success", "summary": "已完成控制器体检。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["suggest-fix", "runtime"], "command_id": "suggest-fix-runtime", "status": "success", "summary": "已生成 runtime 图修复建议。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["suggest-fix", "tf"], "command_id": "suggest-fix-tf", "status": "success", "summary": "已生成 TF 修复建议。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["suggest-fix", "controller"], "command_id": "suggest-fix-controller", "status": "success", "summary": "已生成控制器修复建议。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["trace", "failure"], "command_id": "trace-failure", "status": "success", "summary": "已追踪当前主要失败线索。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["replay", "evidence"], "command_id": "replay-evidence", "status": "success", "summary": "已整理 evidence replay 入口。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["replay", "workflow"], "command_id": "replay-workflow", "status": "success", "summary": "已整理 workflow replay 入口。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["compare", "snapshots"], "command_id": "compare-snapshots", "status": "success", "summary": "已生成关键快照对比摘要。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["capabilities"], "command_id": "capabilities", "status": "success", "summary": "已列出 collectors 与 diagnosers。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["help"], "command_id": "help", "status": "success", "summary": "已生成命令目录与说明。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["status"], "command_id": "status", "status": "success", "summary": "已收集当前平台状态。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["help"], "command_id": "help", "status": "success", "summary": "已生成命令目录与说明。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["doctor"], "command_id": "doctor", "status": "success", "summary": "已完成平台体检。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["inspect"], "command_id": "inspect", "status": "success", "summary": "已完成平台巡检。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["workflow"], "command_id": "workflow", "status": "success", "summary": "已列出 workflow 资产。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["report"], "command_id": "report", "status": "success", "summary": "已整理报告资产入口。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["settings"], "command_id": "settings", "status": "success", "summary": "已展示当前只读设置说明。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["inspect", "workspace"], "command_id": "inspect-workspace", "status": "success", "summary": "已完成工作区巡检。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["doctor", "ros2"], "command_id": "doctor-ros2", "status": "success", "summary": "已完成 ROS2 体检。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["quality"], "command_id": "quality-gate", "status": "blocked", "summary": "quality 命令属于重量级验证流程，需在 TUI 外部运行。", "exit_code": 2, "execution_mode": "heavyweight"}
+{"command": ["unknown"], "command_id": null, "status": "not_implemented", "summary": "暂未实现该命令执行入口： ['unknown']", "exit_code": 1, "execution_mode": "lightweight"}
+{"command": ["status"], "command_id": "status", "status": "success", "summary": "已收集当前平台状态。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["doctor"], "command_id": "doctor", "status": "success", "summary": "已完成平台体检。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["status"], "command_id": "status", "status": "success", "summary": "已收集当前平台状态。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["history"], "command_id": "history", "status": "success", "summary": "已读取最近命令历史。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["settings"], "command_id": "settings", "status": "success", "summary": "已展示当前只读设置说明。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["status"], "command_id": "status", "status": "success", "summary": "已收集当前平台状态。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["inspect", "workspace"], "command_id": "inspect-workspace", "status": "success", "summary": "已完成工作区巡检。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["inspect", "graph"], "command_id": "inspect-graph", "status": "success", "summary": "已完成运行图巡检。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["inspect", "tf"], "command_id": "inspect-tf", "status": "success", "summary": "已完成 TF 巡检。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["inspect", "controller"], "command_id": "inspect-controller", "status": "success", "summary": "已完成控制器巡检。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["doctor", "ros2"], "command_id": "doctor-ros2", "status": "success", "summary": "已完成 ROS2 体检。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["doctor", "workspace"], "command_id": "doctor-workspace", "status": "success", "summary": "已完成工作区体检。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["doctor", "tf"], "command_id": "doctor-tf", "status": "success", "summary": "已完成 TF 体检。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["doctor", "control"], "command_id": "doctor-control", "status": "success", "summary": "已完成控制器体检。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["suggest-fix", "runtime"], "command_id": "suggest-fix-runtime", "status": "success", "summary": "已生成 runtime 图修复建议。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["suggest-fix", "tf"], "command_id": "suggest-fix-tf", "status": "success", "summary": "已生成 TF 修复建议。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["suggest-fix", "controller"], "command_id": "suggest-fix-controller", "status": "success", "summary": "已生成控制器修复建议。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["trace", "failure"], "command_id": "trace-failure", "status": "success", "summary": "已追踪当前主要失败线索。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["replay", "evidence"], "command_id": "replay-evidence", "status": "success", "summary": "已整理 evidence replay 入口。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["replay", "workflow"], "command_id": "replay-workflow", "status": "success", "summary": "已整理 workflow replay 入口。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["compare", "snapshots"], "command_id": "compare-snapshots", "status": "success", "summary": "已生成关键快照对比摘要。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["capabilities"], "command_id": "capabilities", "status": "success", "summary": "已列出 collectors 与 diagnosers。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["help"], "command_id": "help", "status": "success", "summary": "已生成命令目录与说明。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["status"], "command_id": "status", "status": "success", "summary": "已收集当前平台状态。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["help"], "command_id": "help", "status": "success", "summary": "已生成命令目录与说明。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["doctor"], "command_id": "doctor", "status": "success", "summary": "已完成平台体检。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["inspect"], "command_id": "inspect", "status": "success", "summary": "已完成平台巡检。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["workflow"], "command_id": "workflow", "status": "success", "summary": "已列出 workflow 资产。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["report"], "command_id": "report", "status": "success", "summary": "已整理报告资产入口。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["settings"], "command_id": "settings", "status": "success", "summary": "已展示当前只读设置说明。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["inspect", "workspace"], "command_id": "inspect-workspace", "status": "success", "summary": "已完成工作区巡检。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["doctor", "ros2"], "command_id": "doctor-ros2", "status": "success", "summary": "已完成 ROS2 体检。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["quality"], "command_id": "quality-gate", "status": "blocked", "summary": "quality 命令属于重量级验证流程，需在 TUI 外部运行。", "exit_code": 2, "execution_mode": "heavyweight"}
+{"command": ["unknown"], "command_id": null, "status": "not_implemented", "summary": "暂未实现该命令执行入口： ['unknown']", "exit_code": 1, "execution_mode": "lightweight"}
+{"command": ["status"], "command_id": "status", "status": "success", "summary": "已收集当前平台状态。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["doctor"], "command_id": "doctor", "status": "success", "summary": "已完成平台体检。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["status"], "command_id": "status", "status": "success", "summary": "已收集当前平台状态。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["history"], "command_id": "history", "status": "success", "summary": "已读取最近命令历史。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["settings"], "command_id": "settings", "status": "success", "summary": "已展示当前只读设置说明。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["status"], "command_id": "status", "status": "success", "summary": "已收集当前平台状态。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["inspect", "workspace"], "command_id": "inspect-workspace", "status": "success", "summary": "已完成工作区巡检。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["inspect", "graph"], "command_id": "inspect-graph", "status": "success", "summary": "已完成运行图巡检。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["inspect", "tf"], "command_id": "inspect-tf", "status": "success", "summary": "已完成 TF 巡检。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["inspect", "controller"], "command_id": "inspect-controller", "status": "success", "summary": "已完成控制器巡检。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["doctor", "ros2"], "command_id": "doctor-ros2", "status": "success", "summary": "已完成 ROS2 体检。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["doctor", "workspace"], "command_id": "doctor-workspace", "status": "success", "summary": "已完成工作区体检。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["doctor", "tf"], "command_id": "doctor-tf", "status": "success", "summary": "已完成 TF 体检。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["doctor", "control"], "command_id": "doctor-control", "status": "success", "summary": "已完成控制器体检。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["suggest-fix", "runtime"], "command_id": "suggest-fix-runtime", "status": "success", "summary": "已生成 runtime 图修复建议。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["suggest-fix", "tf"], "command_id": "suggest-fix-tf", "status": "success", "summary": "已生成 TF 修复建议。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["suggest-fix", "controller"], "command_id": "suggest-fix-controller", "status": "success", "summary": "已生成控制器修复建议。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["trace", "failure"], "command_id": "trace-failure", "status": "success", "summary": "已追踪当前主要失败线索。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["replay", "evidence"], "command_id": "replay-evidence", "status": "success", "summary": "已整理 evidence replay 入口。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["replay", "workflow"], "command_id": "replay-workflow", "status": "success", "summary": "已整理 workflow replay 入口。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["compare", "snapshots"], "command_id": "compare-snapshots", "status": "success", "summary": "已生成关键快照对比摘要。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["capabilities"], "command_id": "capabilities", "status": "success", "summary": "已列出 collectors 与 diagnosers。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["help"], "command_id": "help", "status": "success", "summary": "已生成命令目录与说明。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["status"], "command_id": "status", "status": "success", "summary": "已收集当前平台状态。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["inspect", "workspace"], "command_id": "inspect-workspace", "status": "success", "summary": "已完成工作区巡检。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["inspect", "graph"], "command_id": "inspect-graph", "status": "success", "summary": "已完成运行图巡检。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["inspect", "tf"], "command_id": "inspect-tf", "status": "success", "summary": "已完成 TF 巡检。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["inspect", "controller"], "command_id": "inspect-controller", "status": "success", "summary": "已完成控制器巡检。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["doctor", "ros2"], "command_id": "doctor-ros2", "status": "success", "summary": "已完成 ROS2 体检。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["doctor", "workspace"], "command_id": "doctor-workspace", "status": "success", "summary": "已完成工作区体检。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["doctor", "tf"], "command_id": "doctor-tf", "status": "success", "summary": "已完成 TF 体检。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["doctor", "control"], "command_id": "doctor-control", "status": "success", "summary": "已完成控制器体检。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["suggest-fix", "runtime"], "command_id": "suggest-fix-runtime", "status": "success", "summary": "已生成 runtime 图修复建议。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["suggest-fix", "tf"], "command_id": "suggest-fix-tf", "status": "success", "summary": "已生成 TF 修复建议。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["suggest-fix", "controller"], "command_id": "suggest-fix-controller", "status": "success", "summary": "已生成控制器修复建议。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["trace", "failure"], "command_id": "trace-failure", "status": "success", "summary": "已追踪当前主要失败线索。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["replay", "evidence"], "command_id": "replay-evidence", "status": "success", "summary": "已整理 evidence replay 入口。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["replay", "workflow"], "command_id": "replay-workflow", "status": "success", "summary": "已整理 workflow replay 入口。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["compare", "snapshots"], "command_id": "compare-snapshots", "status": "success", "summary": "已生成关键快照对比摘要。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["capabilities"], "command_id": "capabilities", "status": "success", "summary": "已列出 collectors 与 diagnosers。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["help"], "command_id": "help", "status": "success", "summary": "已生成命令目录与说明。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["status"], "command_id": "status", "status": "success", "summary": "已收集当前平台状态。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["inspect", "workspace"], "command_id": "inspect-workspace", "status": "success", "summary": "已完成工作区巡检。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["inspect", "graph"], "command_id": "inspect-graph", "status": "success", "summary": "已完成运行图巡检。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["inspect", "tf"], "command_id": "inspect-tf", "status": "success", "summary": "已完成 TF 巡检。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["inspect", "controller"], "command_id": "inspect-controller", "status": "success", "summary": "已完成控制器巡检。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["doctor", "ros2"], "command_id": "doctor-ros2", "status": "success", "summary": "已完成 ROS2 体检。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["doctor", "workspace"], "command_id": "doctor-workspace", "status": "success", "summary": "已完成工作区体检。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["doctor", "tf"], "command_id": "doctor-tf", "status": "success", "summary": "已完成 TF 体检。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["doctor", "control"], "command_id": "doctor-control", "status": "success", "summary": "已完成控制器体检。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["suggest-fix", "runtime"], "command_id": "suggest-fix-runtime", "status": "success", "summary": "已生成 runtime 图修复建议。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["suggest-fix", "tf"], "command_id": "suggest-fix-tf", "status": "success", "summary": "已生成 TF 修复建议。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["suggest-fix", "controller"], "command_id": "suggest-fix-controller", "status": "success", "summary": "已生成控制器修复建议。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["trace", "failure"], "command_id": "trace-failure", "status": "success", "summary": "已追踪当前主要失败线索。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["replay", "evidence"], "command_id": "replay-evidence", "status": "success", "summary": "已整理 evidence replay 入口。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["replay", "workflow"], "command_id": "replay-workflow", "status": "success", "summary": "已整理 workflow replay 入口。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["compare", "snapshots"], "command_id": "compare-snapshots", "status": "success", "summary": "已生成关键快照对比摘要。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["capabilities"], "command_id": "capabilities", "status": "success", "summary": "已列出 collectors 与 diagnosers。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["help"], "command_id": "help", "status": "success", "summary": "已生成命令目录与说明。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["status"], "command_id": "status", "status": "success", "summary": "已收集当前平台状态。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["inspect", "workspace"], "command_id": "inspect-workspace", "status": "success", "summary": "已完成工作区巡检。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["inspect", "graph"], "command_id": "inspect-graph", "status": "success", "summary": "已完成运行图巡检。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["inspect", "tf"], "command_id": "inspect-tf", "status": "success", "summary": "已完成 TF 巡检。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["inspect", "controller"], "command_id": "inspect-controller", "status": "success", "summary": "已完成控制器巡检。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["doctor", "ros2"], "command_id": "doctor-ros2", "status": "success", "summary": "已完成 ROS2 体检。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["doctor", "workspace"], "command_id": "doctor-workspace", "status": "success", "summary": "已完成工作区体检。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["doctor", "tf"], "command_id": "doctor-tf", "status": "success", "summary": "已完成 TF 体检。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["doctor", "control"], "command_id": "doctor-control", "status": "success", "summary": "已完成控制器体检。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["suggest-fix", "runtime"], "command_id": "suggest-fix-runtime", "status": "success", "summary": "已生成 runtime 图修复建议。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["suggest-fix", "tf"], "command_id": "suggest-fix-tf", "status": "success", "summary": "已生成 TF 修复建议。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["suggest-fix", "controller"], "command_id": "suggest-fix-controller", "status": "success", "summary": "已生成控制器修复建议。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["trace", "failure"], "command_id": "trace-failure", "status": "success", "summary": "已追踪当前主要失败线索。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["replay", "evidence"], "command_id": "replay-evidence", "status": "success", "summary": "已整理 evidence replay 入口。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["replay", "workflow"], "command_id": "replay-workflow", "status": "success", "summary": "已整理 workflow replay 入口。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["compare", "snapshots"], "command_id": "compare-snapshots", "status": "success", "summary": "已生成关键快照对比摘要。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["capabilities"], "command_id": "capabilities", "status": "success", "summary": "已列出 collectors 与 diagnosers。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["help"], "command_id": "help", "status": "success", "summary": "已生成命令目录与说明。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["status"], "command_id": "status", "status": "success", "summary": "已收集当前平台状态。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["doctor"], "command_id": "doctor", "status": "success", "summary": "已完成平台体检。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["inspect"], "command_id": "inspect", "status": "success", "summary": "已完成平台巡检。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["history"], "command_id": "history", "status": "success", "summary": "已读取最近命令历史。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["workflow"], "command_id": "workflow", "status": "success", "summary": "已列出 workflow 资产。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["report"], "command_id": "report", "status": "success", "summary": "已整理报告资产入口。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["settings"], "command_id": "settings", "status": "success", "summary": "已展示当前只读设置说明。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["help"], "command_id": "help", "status": "success", "summary": "已生成命令目录与说明。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["status"], "command_id": "status", "status": "success", "summary": "已收集当前平台状态。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["collect", "env"], "command_id": "quick-env-collect", "status": "success", "summary": "已完成环境采集。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["collect", "workspace"], "command_id": "collect-workspace", "status": "success", "summary": "已完成工作区采集。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["collect", "graph"], "command_id": "collect-graph", "status": "success", "summary": "已完成运行图采集。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["collect", "tf"], "command_id": "collect-tf", "status": "success", "summary": "已完成 TF 采集。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["collect", "controller"], "command_id": "collect-controller", "status": "success", "summary": "已完成控制器采集。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["diagnose", "env"], "command_id": "diagnose-env", "status": "success", "summary": "已完成环境诊断。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["diagnose", "workspace"], "command_id": "diagnose-workspace", "status": "success", "summary": "已完成工作区诊断。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["diagnose", "runtime"], "command_id": "diagnose-runtime", "status": "success", "summary": "已完成 runtime 图诊断。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["diagnose", "tf"], "command_id": "diagnose-tf", "status": "success", "summary": "已完成 TF 诊断。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["diagnose", "controller"], "command_id": "diagnose-controller", "status": "success", "summary": "已完成控制器诊断。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["inspect", "workspace"], "command_id": "inspect-workspace", "status": "success", "summary": "已完成工作区巡检。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["inspect", "graph"], "command_id": "inspect-graph", "status": "success", "summary": "已完成运行图巡检。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["inspect", "tf"], "command_id": "inspect-tf", "status": "success", "summary": "已完成 TF 巡检。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["inspect", "controller"], "command_id": "inspect-controller", "status": "success", "summary": "已完成控制器巡检。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["doctor", "ros2"], "command_id": "doctor-ros2", "status": "success", "summary": "已完成 ROS2 体检。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["doctor", "workspace"], "command_id": "doctor-workspace", "status": "success", "summary": "已完成工作区体检。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["doctor", "tf"], "command_id": "doctor-tf", "status": "success", "summary": "已完成 TF 体检。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["doctor", "control"], "command_id": "doctor-control", "status": "success", "summary": "已完成控制器体检。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["suggest-fix", "runtime"], "command_id": "suggest-fix-runtime", "status": "success", "summary": "已生成 runtime 图修复建议。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["suggest-fix", "tf"], "command_id": "suggest-fix-tf", "status": "success", "summary": "已生成 TF 修复建议。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["suggest-fix", "controller"], "command_id": "suggest-fix-controller", "status": "success", "summary": "已生成控制器修复建议。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["doctor"], "command_id": "doctor", "status": "success", "summary": "已完成平台体检。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["inspect"], "command_id": "inspect", "status": "success", "summary": "已完成平台巡检。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["history"], "command_id": "history", "status": "success", "summary": "已读取最近命令历史。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["workflow"], "command_id": "workflow", "status": "success", "summary": "已列出 workflow 资产。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["report"], "command_id": "report", "status": "success", "summary": "已整理报告资产入口。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["settings"], "command_id": "settings", "status": "success", "summary": "已展示当前只读设置说明。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["help"], "command_id": "help", "status": "success", "summary": "已生成命令目录与说明。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["status"], "command_id": "status", "status": "success", "summary": "已收集当前平台状态。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["collect", "env"], "command_id": "quick-env-collect", "status": "success", "summary": "已完成环境采集。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["collect", "workspace"], "command_id": "collect-workspace", "status": "success", "summary": "已完成工作区采集。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["collect", "graph"], "command_id": "collect-graph", "status": "success", "summary": "已完成运行图采集。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["collect", "tf"], "command_id": "collect-tf", "status": "success", "summary": "已完成 TF 采集。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["collect", "controller"], "command_id": "collect-controller", "status": "success", "summary": "已完成控制器采集。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["diagnose", "env"], "command_id": "diagnose-env", "status": "success", "summary": "已完成环境诊断。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["diagnose", "workspace"], "command_id": "diagnose-workspace", "status": "success", "summary": "已完成工作区诊断。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["diagnose", "runtime"], "command_id": "diagnose-runtime", "status": "success", "summary": "已完成 runtime 图诊断。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["diagnose", "tf"], "command_id": "diagnose-tf", "status": "success", "summary": "已完成 TF 诊断。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["diagnose", "controller"], "command_id": "diagnose-controller", "status": "success", "summary": "已完成控制器诊断。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["inspect", "workspace"], "command_id": "inspect-workspace", "status": "success", "summary": "已完成工作区巡检。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["inspect", "graph"], "command_id": "inspect-graph", "status": "success", "summary": "已完成运行图巡检。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["inspect", "tf"], "command_id": "inspect-tf", "status": "success", "summary": "已完成 TF 巡检。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["inspect", "controller"], "command_id": "inspect-controller", "status": "success", "summary": "已完成控制器巡检。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["doctor", "ros2"], "command_id": "doctor-ros2", "status": "success", "summary": "已完成 ROS2 体检。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["doctor", "workspace"], "command_id": "doctor-workspace", "status": "success", "summary": "已完成工作区体检。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["doctor", "tf"], "command_id": "doctor-tf", "status": "success", "summary": "已完成 TF 体检。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["doctor", "control"], "command_id": "doctor-control", "status": "success", "summary": "已完成控制器体检。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["suggest-fix", "runtime"], "command_id": "suggest-fix-runtime", "status": "success", "summary": "已生成 runtime 图修复建议。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["suggest-fix", "tf"], "command_id": "suggest-fix-tf", "status": "success", "summary": "已生成 TF 修复建议。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["suggest-fix", "controller"], "command_id": "suggest-fix-controller", "status": "success", "summary": "已生成控制器修复建议。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["help"], "command_id": "help", "status": "success", "summary": "已生成命令目录与说明。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["status"], "command_id": "status", "status": "success", "summary": "已收集当前平台状态。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["collect", "env"], "command_id": "quick-env-collect", "status": "success", "summary": "已完成环境采集。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["doctor"], "command_id": "doctor", "status": "success", "summary": "已完成平台体检。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["inspect"], "command_id": "inspect", "status": "success", "summary": "已完成平台巡检。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["history"], "command_id": "history", "status": "success", "summary": "已读取最近命令历史。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["workflow"], "command_id": "workflow", "status": "success", "summary": "已列出 workflow 资产。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["report"], "command_id": "report", "status": "success", "summary": "已整理报告资产入口。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["settings"], "command_id": "settings", "status": "success", "summary": "已展示当前只读设置说明。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["help"], "command_id": "help", "status": "success", "summary": "已生成命令目录与说明。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["status"], "command_id": "status", "status": "success", "summary": "已收集当前平台状态。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["collect", "env"], "command_id": "quick-env-collect", "status": "success", "summary": "已完成环境采集。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["collect", "workspace"], "command_id": "collect-workspace", "status": "success", "summary": "已完成工作区采集。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["collect", "graph"], "command_id": "collect-graph", "status": "success", "summary": "已完成运行图采集。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["collect", "tf"], "command_id": "collect-tf", "status": "success", "summary": "已完成 TF 采集。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["collect", "controller"], "command_id": "collect-controller", "status": "success", "summary": "已完成控制器采集。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["diagnose", "env"], "command_id": "diagnose-env", "status": "success", "summary": "已完成环境诊断。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["diagnose", "workspace"], "command_id": "diagnose-workspace", "status": "success", "summary": "已完成工作区诊断。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["diagnose", "runtime"], "command_id": "diagnose-runtime", "status": "success", "summary": "已完成 runtime 图诊断。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["diagnose", "tf"], "command_id": "diagnose-tf", "status": "success", "summary": "已完成 TF 诊断。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["diagnose", "controller"], "command_id": "diagnose-controller", "status": "success", "summary": "已完成控制器诊断。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["inspect", "workspace"], "command_id": "inspect-workspace", "status": "success", "summary": "已完成工作区巡检。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["inspect", "graph"], "command_id": "inspect-graph", "status": "success", "summary": "已完成运行图巡检。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["inspect", "tf"], "command_id": "inspect-tf", "status": "success", "summary": "已完成 TF 巡检。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["inspect", "controller"], "command_id": "inspect-controller", "status": "success", "summary": "已完成控制器巡检。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["doctor", "ros2"], "command_id": "doctor-ros2", "status": "success", "summary": "已完成 ROS2 体检。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["doctor", "workspace"], "command_id": "doctor-workspace", "status": "success", "summary": "已完成工作区体检。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["doctor", "tf"], "command_id": "doctor-tf", "status": "success", "summary": "已完成 TF 体检。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["doctor", "control"], "command_id": "doctor-control", "status": "success", "summary": "已完成控制器体检。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["suggest-fix", "runtime"], "command_id": "suggest-fix-runtime", "status": "success", "summary": "已生成 runtime 图修复建议。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["suggest-fix", "tf"], "command_id": "suggest-fix-tf", "status": "success", "summary": "已生成 TF 修复建议。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["suggest-fix", "controller"], "command_id": "suggest-fix-controller", "status": "success", "summary": "已生成控制器修复建议。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["trace", "failure"], "command_id": "trace-failure", "status": "success", "summary": "已追踪当前主要失败线索。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["replay", "evidence"], "command_id": "replay-evidence", "status": "success", "summary": "已整理 evidence replay 入口。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["replay", "workflow"], "command_id": "replay-workflow", "status": "success", "summary": "已整理 workflow replay 入口。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["compare", "snapshots"], "command_id": "compare-snapshots", "status": "success", "summary": "已生成关键快照对比摘要。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["inspect", "workspace"], "command_id": "inspect-workspace", "status": "success", "summary": "已完成工作区巡检。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["inspect", "graph"], "command_id": "inspect-graph", "status": "success", "summary": "已完成运行图巡检。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["inspect", "tf"], "command_id": "inspect-tf", "status": "success", "summary": "已完成 TF 巡检。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["inspect", "controller"], "command_id": "inspect-controller", "status": "success", "summary": "已完成控制器巡检。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["doctor", "ros2"], "command_id": "doctor-ros2", "status": "success", "summary": "已完成 ROS2 体检。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["doctor", "workspace"], "command_id": "doctor-workspace", "status": "success", "summary": "已完成工作区体检。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["doctor", "tf"], "command_id": "doctor-tf", "status": "success", "summary": "已完成 TF 体检。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["doctor", "control"], "command_id": "doctor-control", "status": "success", "summary": "已完成控制器体检。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["suggest-fix", "runtime"], "command_id": "suggest-fix-runtime", "status": "success", "summary": "已生成 runtime 图修复建议。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["suggest-fix", "tf"], "command_id": "suggest-fix-tf", "status": "success", "summary": "已生成 TF 修复建议。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["suggest-fix", "controller"], "command_id": "suggest-fix-controller", "status": "success", "summary": "已生成控制器修复建议。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["trace", "failure"], "command_id": "trace-failure", "status": "success", "summary": "已追踪当前主要失败线索。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["replay", "evidence"], "command_id": "replay-evidence", "status": "success", "summary": "已整理 evidence replay 入口。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["replay", "workflow"], "command_id": "replay-workflow", "status": "success", "summary": "已整理 workflow replay 入口。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["compare", "snapshots"], "command_id": "compare-snapshots", "status": "success", "summary": "已生成关键快照对比摘要。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["capabilities"], "command_id": "capabilities", "status": "success", "summary": "已列出 collectors 与 diagnosers。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["help"], "command_id": "help", "status": "success", "summary": "已生成命令目录与说明。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["status"], "command_id": "status", "status": "success", "summary": "已收集当前平台状态。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["inspect", "workspace"], "command_id": "inspect-workspace", "status": "success", "summary": "已完成工作区巡检。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["inspect", "graph"], "command_id": "inspect-graph", "status": "success", "summary": "已完成运行图巡检。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["inspect", "tf"], "command_id": "inspect-tf", "status": "success", "summary": "已完成 TF 巡检。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["inspect", "controller"], "command_id": "inspect-controller", "status": "success", "summary": "已完成控制器巡检。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["doctor", "ros2"], "command_id": "doctor-ros2", "status": "success", "summary": "已完成 ROS2 体检。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["doctor", "workspace"], "command_id": "doctor-workspace", "status": "success", "summary": "已完成工作区体检。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["doctor", "tf"], "command_id": "doctor-tf", "status": "success", "summary": "已完成 TF 体检。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["doctor", "control"], "command_id": "doctor-control", "status": "success", "summary": "已完成控制器体检。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["suggest-fix", "runtime"], "command_id": "suggest-fix-runtime", "status": "success", "summary": "已生成 runtime 图修复建议。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["suggest-fix", "tf"], "command_id": "suggest-fix-tf", "status": "success", "summary": "已生成 TF 修复建议。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["suggest-fix", "controller"], "command_id": "suggest-fix-controller", "status": "success", "summary": "已生成控制器修复建议。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["trace", "failure"], "command_id": "trace-failure", "status": "success", "summary": "已追踪当前主要失败线索。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["replay", "evidence"], "command_id": "replay-evidence", "status": "success", "summary": "已整理 evidence replay 入口。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["replay", "workflow"], "command_id": "replay-workflow", "status": "success", "summary": "已整理 workflow replay 入口。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["compare", "snapshots"], "command_id": "compare-snapshots", "status": "success", "summary": "已生成关键快照对比摘要。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["capabilities"], "command_id": "capabilities", "status": "success", "summary": "已列出 collectors 与 diagnosers。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["help"], "command_id": "help", "status": "success", "summary": "已生成命令目录与说明。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["status"], "command_id": "status", "status": "success", "summary": "已收集当前平台状态。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["inspect", "workspace"], "command_id": "inspect-workspace", "status": "success", "summary": "已完成工作区巡检。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["inspect", "graph"], "command_id": "inspect-graph", "status": "success", "summary": "已完成运行图巡检。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["inspect", "tf"], "command_id": "inspect-tf", "status": "success", "summary": "已完成 TF 巡检。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["inspect", "controller"], "command_id": "inspect-controller", "status": "success", "summary": "已完成控制器巡检。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["doctor", "ros2"], "command_id": "doctor-ros2", "status": "success", "summary": "已完成 ROS2 体检。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["doctor", "workspace"], "command_id": "doctor-workspace", "status": "success", "summary": "已完成工作区体检。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["doctor", "tf"], "command_id": "doctor-tf", "status": "success", "summary": "已完成 TF 体检。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["doctor", "control"], "command_id": "doctor-control", "status": "success", "summary": "已完成控制器体检。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["suggest-fix", "runtime"], "command_id": "suggest-fix-runtime", "status": "success", "summary": "已生成 runtime 图修复建议。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["suggest-fix", "tf"], "command_id": "suggest-fix-tf", "status": "success", "summary": "已生成 TF 修复建议。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["suggest-fix", "controller"], "command_id": "suggest-fix-controller", "status": "success", "summary": "已生成控制器修复建议。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["trace", "failure"], "command_id": "trace-failure", "status": "success", "summary": "已追踪当前主要失败线索。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["replay", "evidence"], "command_id": "replay-evidence", "status": "success", "summary": "已整理 evidence replay 入口。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["replay", "workflow"], "command_id": "replay-workflow", "status": "success", "summary": "已整理 workflow replay 入口。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["compare", "snapshots"], "command_id": "compare-snapshots", "status": "success", "summary": "已生成关键快照对比摘要。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["capabilities"], "command_id": "capabilities", "status": "success", "summary": "已列出 collectors 与 diagnosers。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["help"], "command_id": "help", "status": "success", "summary": "已生成命令目录与说明。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["status"], "command_id": "status", "status": "success", "summary": "已收集当前平台状态。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["help"], "command_id": "help", "status": "success", "summary": "已生成命令目录与说明。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["doctor"], "command_id": "doctor", "status": "success", "summary": "已完成平台体检。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["inspect"], "command_id": "inspect", "status": "success", "summary": "已完成平台巡检。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["workflow"], "command_id": "workflow", "status": "success", "summary": "已列出 workflow 资产。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["report"], "command_id": "report", "status": "success", "summary": "已整理报告资产入口。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["settings"], "command_id": "settings", "status": "success", "summary": "已展示当前只读设置说明。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["inspect", "workspace"], "command_id": "inspect-workspace", "status": "success", "summary": "已完成工作区巡检。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["doctor", "ros2"], "command_id": "doctor-ros2", "status": "success", "summary": "已完成 ROS2 体检。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["quality"], "command_id": "quality-gate", "status": "blocked", "summary": "quality 命令属于重量级验证流程，需在 TUI 外部运行。", "exit_code": 2, "execution_mode": "heavyweight"}
+{"command": ["unknown"], "command_id": null, "status": "not_implemented", "summary": "暂未实现该命令执行入口： ['unknown']", "exit_code": 1, "execution_mode": "lightweight"}
+{"command": ["status"], "command_id": "status", "status": "success", "summary": "已收集当前平台状态。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["inspect", "workspace"], "command_id": "inspect-workspace", "status": "success", "summary": "已完成工作区巡检。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["inspect", "graph"], "command_id": "inspect-graph", "status": "success", "summary": "已完成运行图巡检。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["inspect", "tf"], "command_id": "inspect-tf", "status": "success", "summary": "已完成 TF 巡检。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["inspect", "controller"], "command_id": "inspect-controller", "status": "success", "summary": "已完成控制器巡检。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["doctor", "ros2"], "command_id": "doctor-ros2", "status": "success", "summary": "已完成 ROS2 体检。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["doctor", "workspace"], "command_id": "doctor-workspace", "status": "success", "summary": "已完成工作区体检。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["doctor", "tf"], "command_id": "doctor-tf", "status": "success", "summary": "已完成 TF 体检。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["doctor", "control"], "command_id": "doctor-control", "status": "success", "summary": "已完成控制器体检。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["suggest-fix", "runtime"], "command_id": "suggest-fix-runtime", "status": "success", "summary": "已生成 runtime 图修复建议。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["suggest-fix", "tf"], "command_id": "suggest-fix-tf", "status": "success", "summary": "已生成 TF 修复建议。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["suggest-fix", "controller"], "command_id": "suggest-fix-controller", "status": "success", "summary": "已生成控制器修复建议。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["trace", "failure"], "command_id": "trace-failure", "status": "success", "summary": "已追踪当前主要失败线索。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["replay", "evidence"], "command_id": "replay-evidence", "status": "success", "summary": "已整理 evidence replay 入口。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["replay", "workflow"], "command_id": "replay-workflow", "status": "success", "summary": "已整理 workflow replay 入口。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["compare", "snapshots"], "command_id": "compare-snapshots", "status": "success", "summary": "已生成关键快照对比摘要。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["capabilities"], "command_id": "capabilities", "status": "success", "summary": "已列出 collectors 与 diagnosers。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["help"], "command_id": "help", "status": "success", "summary": "已生成命令目录与说明。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["status"], "command_id": "status", "status": "success", "summary": "已收集当前平台状态。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["diagnose", "fusion"], "command_id": "diagnose-fusion", "status": "success", "summary": "已完成融合诊断。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["capabilities"], "command_id": "capabilities", "status": "success", "summary": "已列出 collectors 与 diagnosers。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["help"], "command_id": "help", "status": "success", "summary": "已生成命令目录与说明。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["status"], "command_id": "status", "status": "success", "summary": "已收集当前平台状态。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["diagnose", "fusion"], "command_id": "diagnose-fusion", "status": "success", "summary": "已完成融合诊断。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["help"], "command_id": "help", "status": "success", "summary": "已生成命令目录与说明。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["status"], "command_id": "status", "status": "success", "summary": "已收集当前平台状态。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["capabilities"], "command_id": "capabilities", "status": "success", "summary": "已列出 collectors 与 diagnosers。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["help"], "command_id": "help", "status": "success", "summary": "已生成命令目录与说明。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["status"], "command_id": "status", "status": "success", "summary": "已收集当前平台状态。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["diagnose", "fusion"], "command_id": "diagnose-fusion", "status": "success", "summary": "已完成融合诊断。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["help"], "command_id": "help", "status": "success", "summary": "已生成命令目录与说明。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["status"], "command_id": "status", "status": "success", "summary": "已收集当前平台状态。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["capabilities"], "command_id": "capabilities", "status": "success", "summary": "已列出 collectors 与 diagnosers。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["help"], "command_id": "help", "status": "success", "summary": "已生成命令目录与说明。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["status"], "command_id": "status", "status": "success", "summary": "已收集当前平台状态。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["diagnose", "fusion"], "command_id": "diagnose-fusion", "status": "success", "summary": "已完成融合诊断。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["help"], "command_id": "help", "status": "success", "summary": "已生成命令目录与说明。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["status"], "command_id": "status", "status": "success", "summary": "已收集当前平台状态。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["diagnose", "fusion"], "command_id": "diagnose-fusion", "status": "success", "summary": "已完成融合诊断。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["runbook", "list"], "command_id": "runbook-list", "status": "success", "summary": "已列出 runbook 与 broken workflow 资产。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["history"], "command_id": "history", "status": "success", "summary": "已读取最近命令历史。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["quality"], "command_id": "quality-gate", "status": "blocked", "summary": "quality 命令属于重量级验证流程，需在 TUI 外部运行。", "exit_code": 2, "execution_mode": "heavyweight"}
+{"command": ["history"], "command_id": "history", "status": "success", "summary": "已读取最近命令历史。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["quality"], "command_id": "quality-gate", "status": "blocked", "summary": "quality 命令属于重量级验证流程，需在 TUI 外部运行。", "exit_code": 2, "execution_mode": "heavyweight"}
+{"command": ["capabilities"], "command_id": "capabilities", "status": "success", "summary": "已列出 collectors 与 diagnosers。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["help"], "command_id": "help", "status": "success", "summary": "已生成命令目录与说明。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["status"], "command_id": "status", "status": "success", "summary": "已收集当前平台状态。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["diagnose", "fusion"], "command_id": "diagnose-fusion", "status": "success", "summary": "已完成融合诊断。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["quality"], "command_id": "quality-gate", "status": "blocked", "summary": "quality 命令属于重量级验证流程，需在 TUI 外部运行。", "exit_code": 2, "execution_mode": "heavyweight"}
+{"command": ["history"], "command_id": "history", "status": "success", "summary": "已读取最近命令历史。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["history"], "command_id": "history", "status": "success", "summary": "已读取最近命令历史。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["quality"], "command_id": "quality-gate", "status": "blocked", "summary": "quality 命令属于重量级验证流程，需在 TUI 外部运行。", "exit_code": 2, "execution_mode": "heavyweight"}
+{"command": ["status"], "command_id": "status", "status": "success", "summary": "已收集当前平台状态。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["capabilities"], "command_id": "capabilities", "status": "success", "summary": "已列出 collectors 与 diagnosers。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["help"], "command_id": "help", "status": "success", "summary": "已生成命令目录与说明。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["status"], "command_id": "status", "status": "success", "summary": "已收集当前平台状态。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["diagnose", "fusion"], "command_id": "diagnose-fusion", "status": "success", "summary": "已完成融合诊断。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["quality"], "command_id": "quality-gate", "status": "blocked", "summary": "quality 命令属于重量级验证流程，需在 TUI 外部运行。", "exit_code": 2, "execution_mode": "heavyweight"}
+{"command": ["history"], "command_id": "history", "status": "success", "summary": "已读取最近命令历史。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["history"], "command_id": "history", "status": "success", "summary": "已读取最近命令历史。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["quality"], "command_id": "quality-gate", "status": "blocked", "summary": "quality 命令属于重量级验证流程，需在 TUI 外部运行。", "exit_code": 2, "execution_mode": "heavyweight"}
+{"command": ["status"], "command_id": "status", "status": "success", "summary": "已收集当前平台状态。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["capabilities"], "command_id": "capabilities", "status": "success", "summary": "已列出 collectors 与 diagnosers。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["help"], "command_id": "help", "status": "success", "summary": "已生成命令目录与说明。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["status"], "command_id": "status", "status": "success", "summary": "已收集当前平台状态。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["diagnose", "fusion"], "command_id": "diagnose-fusion", "status": "success", "summary": "已完成融合诊断。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["quality"], "command_id": "quality-gate", "status": "blocked", "summary": "quality 命令属于重量级验证流程，需在 TUI 外部运行。", "exit_code": 2, "execution_mode": "heavyweight"}
+{"command": ["history"], "command_id": "history", "status": "success", "summary": "已读取最近命令历史。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["history"], "command_id": "history", "status": "success", "summary": "已读取最近命令历史。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["quality"], "command_id": "quality-gate", "status": "blocked", "summary": "quality 命令属于重量级验证流程，需在 TUI 外部运行。", "exit_code": 2, "execution_mode": "heavyweight"}
+{"command": ["status"], "command_id": "status", "status": "success", "summary": "已收集当前平台状态。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["capabilities"], "command_id": "capabilities", "status": "success", "summary": "已列出 collectors 与 diagnosers。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["help"], "command_id": "help", "status": "success", "summary": "已生成命令目录与说明。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["status"], "command_id": "status", "status": "success", "summary": "已收集当前平台状态。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["diagnose", "fusion"], "command_id": "diagnose-fusion", "status": "success", "summary": "已完成融合诊断。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["quality"], "command_id": "quality-gate", "status": "blocked", "summary": "quality 命令属于重量级验证流程，需在 TUI 外部运行。", "exit_code": 2, "execution_mode": "heavyweight"}
+{"command": ["history"], "command_id": "history", "status": "success", "summary": "已读取最近命令历史。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["history"], "command_id": "history", "status": "success", "summary": "已读取最近命令历史。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["quality"], "command_id": "quality-gate", "status": "blocked", "summary": "quality 命令属于重量级验证流程，需在 TUI 外部运行。", "exit_code": 2, "execution_mode": "heavyweight"}
+{"command": ["status"], "command_id": "status", "status": "success", "summary": "已收集当前平台状态。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["capabilities"], "command_id": "capabilities", "status": "success", "summary": "已列出 collectors 与 diagnosers。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["help"], "command_id": "help", "status": "success", "summary": "已生成命令目录与说明。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["status"], "command_id": "status", "status": "success", "summary": "已收集当前平台状态。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["diagnose", "fusion"], "command_id": "diagnose-fusion", "status": "success", "summary": "已完成融合诊断。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["quality"], "command_id": "quality-gate", "status": "blocked", "summary": "quality 命令属于重量级验证流程，需在 TUI 外部运行。", "exit_code": 2, "execution_mode": "heavyweight"}
+{"command": ["history"], "command_id": "history", "status": "success", "summary": "已读取最近命令历史。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["history"], "command_id": "history", "status": "success", "summary": "已读取最近命令历史。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["quality"], "command_id": "quality-gate", "status": "blocked", "summary": "quality 命令属于重量级验证流程，需在 TUI 外部运行。", "exit_code": 2, "execution_mode": "heavyweight"}
+{"command": ["status"], "command_id": "status", "status": "success", "summary": "已收集当前平台状态。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["capabilities"], "command_id": "capabilities", "status": "success", "summary": "已列出 collectors 与 diagnosers。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["help"], "command_id": "help", "status": "success", "summary": "已生成命令目录与说明。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["status"], "command_id": "status", "status": "success", "summary": "已收集当前平台状态。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["diagnose", "fusion"], "command_id": "diagnose-fusion", "status": "success", "summary": "已完成融合诊断。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["quality"], "command_id": "quality-gate", "status": "blocked", "summary": "quality 命令属于重量级验证流程，需在 TUI 外部运行。", "exit_code": 2, "execution_mode": "heavyweight"}
+{"command": ["history"], "command_id": "history", "status": "success", "summary": "已读取最近命令历史。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["history"], "command_id": "history", "status": "success", "summary": "已读取最近命令历史。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["quality"], "command_id": "quality-gate", "status": "blocked", "summary": "quality 命令属于重量级验证流程，需在 TUI 外部运行。", "exit_code": 2, "execution_mode": "heavyweight"}
+{"command": ["status"], "command_id": "status", "status": "success", "summary": "已收集当前平台状态。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["capabilities"], "command_id": "capabilities", "status": "success", "summary": "已列出 collectors 与 diagnosers。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["help"], "command_id": "help", "status": "success", "summary": "已生成命令目录与说明。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["status"], "command_id": "status", "status": "success", "summary": "已收集当前平台状态。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["diagnose", "fusion"], "command_id": "diagnose-fusion", "status": "success", "summary": "已完成融合诊断。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["quality"], "command_id": "quality-gate", "status": "blocked", "summary": "quality 命令属于重量级验证流程，需在 TUI 外部运行。", "exit_code": 2, "execution_mode": "heavyweight"}
+{"command": ["history"], "command_id": "history", "status": "success", "summary": "已读取最近命令历史。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["history"], "command_id": "history", "status": "success", "summary": "已读取最近命令历史。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["quality"], "command_id": "quality-gate", "status": "blocked", "summary": "quality 命令属于重量级验证流程，需在 TUI 外部运行。", "exit_code": 2, "execution_mode": "heavyweight"}
+{"command": ["status"], "command_id": "status", "status": "success", "summary": "已收集当前平台状态。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["capabilities"], "command_id": "capabilities", "status": "success", "summary": "已列出 collectors 与 diagnosers。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["help"], "command_id": "help", "status": "success", "summary": "已生成命令目录与说明。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["status"], "command_id": "status", "status": "success", "summary": "已收集当前平台状态。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["diagnose", "fusion"], "command_id": "diagnose-fusion", "status": "success", "summary": "已完成融合诊断。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["quality"], "command_id": "quality-gate", "status": "blocked", "summary": "quality 命令属于重量级验证流程，需在 TUI 外部运行。", "exit_code": 2, "execution_mode": "heavyweight"}
+{"command": ["history"], "command_id": "history", "status": "success", "summary": "已读取最近命令历史。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["history"], "command_id": "history", "status": "success", "summary": "已读取最近命令历史。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["quality"], "command_id": "quality-gate", "status": "blocked", "summary": "quality 命令属于重量级验证流程，需在 TUI 外部运行。", "exit_code": 2, "execution_mode": "heavyweight"}
+{"command": ["status"], "command_id": "status", "status": "success", "summary": "已收集当前平台状态。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["quality"], "command_id": "quality-gate", "status": "blocked", "summary": "quality 命令属于重量级验证流程，需在 TUI 外部运行。", "exit_code": 2, "execution_mode": "heavyweight"}
+{"command": ["history"], "command_id": "history", "status": "success", "summary": "已读取最近命令历史。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["capabilities"], "command_id": "capabilities", "status": "success", "summary": "已列出 collectors 与 diagnosers。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["help"], "command_id": "help", "status": "success", "summary": "已生成命令目录与说明。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["status"], "command_id": "status", "status": "success", "summary": "已收集当前平台状态。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["diagnose", "fusion"], "command_id": "diagnose-fusion", "status": "success", "summary": "已完成融合诊断。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["history"], "command_id": "history", "status": "success", "summary": "已读取最近命令历史。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["quality"], "command_id": "quality-gate", "status": "blocked", "summary": "quality 命令属于重量级验证流程，需在 TUI 外部运行。", "exit_code": 2, "execution_mode": "heavyweight"}
+{"command": ["status"], "command_id": "status", "status": "success", "summary": "已收集当前平台状态。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["help"], "command_id": "help", "status": "success", "summary": "已生成命令目录与说明。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["doctor"], "command_id": "doctor", "status": "success", "summary": "已完成平台体检。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["inspect"], "command_id": "inspect", "status": "success", "summary": "已完成平台巡检。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["workflow"], "command_id": "workflow", "status": "success", "summary": "已列出 workflow 资产。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["report"], "command_id": "report", "status": "success", "summary": "已整理报告资产入口。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["settings"], "command_id": "settings", "status": "success", "summary": "已展示当前只读设置说明。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["inspect", "workspace"], "command_id": "inspect-workspace", "status": "success", "summary": "已完成工作区巡检。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["doctor", "ros2"], "command_id": "doctor-ros2", "status": "success", "summary": "已完成 ROS2 体检。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["quality"], "command_id": "quality-gate", "status": "blocked", "summary": "quality 命令属于重量级验证流程，需在 TUI 外部运行。", "exit_code": 2, "execution_mode": "heavyweight"}
+{"command": ["unknown"], "command_id": null, "status": "not_implemented", "summary": "暂未实现该命令执行入口： ['unknown']", "exit_code": 1, "execution_mode": "lightweight"}
+{"command": ["status"], "command_id": "status", "status": "success", "summary": "已收集当前平台状态。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["help"], "command_id": "help", "status": "success", "summary": "已生成命令目录与说明。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["status"], "command_id": "status", "status": "success", "summary": "已收集当前平台状态。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["doctor"], "command_id": "doctor", "status": "success", "summary": "已完成平台体检。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["status"], "command_id": "status", "status": "success", "summary": "已收集当前平台状态。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["history"], "command_id": "history", "status": "success", "summary": "已读取最近命令历史。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["settings"], "command_id": "settings", "status": "success", "summary": "已展示当前只读设置说明。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["status"], "command_id": "status", "status": "success", "summary": "已收集当前平台状态。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["inspect", "workspace"], "command_id": "inspect-workspace", "status": "success", "summary": "已完成工作区巡检。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["inspect", "graph"], "command_id": "inspect-graph", "status": "success", "summary": "已完成运行图巡检。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["inspect", "tf"], "command_id": "inspect-tf", "status": "success", "summary": "已完成 TF 巡检。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["inspect", "controller"], "command_id": "inspect-controller", "status": "success", "summary": "已完成控制器巡检。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["doctor", "ros2"], "command_id": "doctor-ros2", "status": "success", "summary": "已完成 ROS2 体检。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["doctor", "workspace"], "command_id": "doctor-workspace", "status": "success", "summary": "已完成工作区体检。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["doctor", "tf"], "command_id": "doctor-tf", "status": "success", "summary": "已完成 TF 体检。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["doctor", "control"], "command_id": "doctor-control", "status": "success", "summary": "已完成控制器体检。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["suggest-fix", "runtime"], "command_id": "suggest-fix-runtime", "status": "success", "summary": "已生成 runtime 图修复建议。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["suggest-fix", "tf"], "command_id": "suggest-fix-tf", "status": "success", "summary": "已生成 TF 修复建议。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["suggest-fix", "controller"], "command_id": "suggest-fix-controller", "status": "success", "summary": "已生成控制器修复建议。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["trace", "failure"], "command_id": "trace-failure", "status": "success", "summary": "已追踪当前主要失败线索。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["replay", "evidence"], "command_id": "replay-evidence", "status": "success", "summary": "已整理 evidence replay 入口。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["replay", "workflow"], "command_id": "replay-workflow", "status": "success", "summary": "已整理 workflow replay 入口。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["compare", "snapshots"], "command_id": "compare-snapshots", "status": "success", "summary": "已生成关键快照对比摘要。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["doctor"], "command_id": "doctor", "status": "success", "summary": "已完成平台体检。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["inspect"], "command_id": "inspect", "status": "success", "summary": "已完成平台巡检。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["history"], "command_id": "history", "status": "success", "summary": "已读取最近命令历史。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["workflow"], "command_id": "workflow", "status": "success", "summary": "已列出 workflow 资产。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["report"], "command_id": "report", "status": "success", "summary": "已整理报告资产入口。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["settings"], "command_id": "settings", "status": "success", "summary": "已展示当前只读设置说明。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["help"], "command_id": "help", "status": "success", "summary": "已生成命令目录与说明。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["status"], "command_id": "status", "status": "success", "summary": "已收集当前平台状态。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["collect", "env"], "command_id": "quick-env-collect", "status": "success", "summary": "已完成环境采集。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["collect", "workspace"], "command_id": "collect-workspace", "status": "success", "summary": "已完成工作区采集。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["collect", "graph"], "command_id": "collect-graph", "status": "success", "summary": "已完成运行图采集。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["collect", "tf"], "command_id": "collect-tf", "status": "success", "summary": "已完成 TF 采集。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["collect", "controller"], "command_id": "collect-controller", "status": "success", "summary": "已完成控制器采集。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["diagnose", "env"], "command_id": "diagnose-env", "status": "success", "summary": "已完成环境诊断。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["diagnose", "workspace"], "command_id": "diagnose-workspace", "status": "success", "summary": "已完成工作区诊断。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["diagnose", "runtime"], "command_id": "diagnose-runtime", "status": "success", "summary": "已完成 runtime 图诊断。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["diagnose", "tf"], "command_id": "diagnose-tf", "status": "success", "summary": "已完成 TF 诊断。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["diagnose", "controller"], "command_id": "diagnose-controller", "status": "success", "summary": "已完成控制器诊断。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["inspect", "workspace"], "command_id": "inspect-workspace", "status": "success", "summary": "已完成工作区巡检。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["inspect", "graph"], "command_id": "inspect-graph", "status": "success", "summary": "已完成运行图巡检。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["inspect", "tf"], "command_id": "inspect-tf", "status": "success", "summary": "已完成 TF 巡检。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["inspect", "controller"], "command_id": "inspect-controller", "status": "success", "summary": "已完成控制器巡检。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["doctor", "ros2"], "command_id": "doctor-ros2", "status": "success", "summary": "已完成 ROS2 体检。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["doctor", "workspace"], "command_id": "doctor-workspace", "status": "success", "summary": "已完成工作区体检。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["doctor", "tf"], "command_id": "doctor-tf", "status": "success", "summary": "已完成 TF 体检。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["doctor", "control"], "command_id": "doctor-control", "status": "success", "summary": "已完成控制器体检。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["suggest-fix", "runtime"], "command_id": "suggest-fix-runtime", "status": "success", "summary": "已生成 runtime 图修复建议。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["suggest-fix", "tf"], "command_id": "suggest-fix-tf", "status": "success", "summary": "已生成 TF 修复建议。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["suggest-fix", "controller"], "command_id": "suggest-fix-controller", "status": "success", "summary": "已生成控制器修复建议。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["trace", "failure"], "command_id": "trace-failure", "status": "success", "summary": "已追踪当前主要失败线索。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["replay", "evidence"], "command_id": "replay-evidence", "status": "success", "summary": "已整理 evidence replay 入口。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["replay", "workflow"], "command_id": "replay-workflow", "status": "success", "summary": "已整理 workflow replay 入口。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["compare", "snapshots"], "command_id": "compare-snapshots", "status": "success", "summary": "已生成关键快照对比摘要。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["diagnose", "fusion"], "command_id": "diagnose-fusion", "status": "success", "summary": "已完成融合诊断。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["benchmark", "recovery"], "command_id": "benchmark-recovery", "status": "success", "summary": "已读取 recovery benchmark 入口资产。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["runbook", "list"], "command_id": "runbook-list", "status": "success", "summary": "已列出 runbook 与 broken workflow 资产。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["profile", "install"], "command_id": "profile-install", "status": "success", "summary": "已完成 demo profile 安装。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["profile", "verify"], "command_id": "profile-verify", "status": "success", "summary": "已检查 profile 安装状态。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["logs", "deployment"], "command_id": "logs-deployment", "status": "success", "summary": "已读取部署执行日志。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["help"], "command_id": "help", "status": "success", "summary": "已生成命令目录与说明。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["status"], "command_id": "status", "status": "success", "summary": "已收集当前平台状态。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["collect", "env"], "command_id": "quick-env-collect", "status": "success", "summary": "已完成环境采集。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["help"], "command_id": "help", "status": "success", "summary": "已生成命令目录与说明。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["status"], "command_id": "status", "status": "success", "summary": "已收集当前平台状态。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["capabilities"], "command_id": "capabilities", "status": "success", "summary": "已列出 collectors 与 diagnosers。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["help"], "command_id": "help", "status": "success", "summary": "已生成命令目录与说明。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["status"], "command_id": "status", "status": "success", "summary": "已收集当前平台状态。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["diagnose", "fusion"], "command_id": "diagnose-fusion", "status": "success", "summary": "已完成融合诊断。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["quality"], "command_id": "quality-gate", "status": "blocked", "summary": "quality 命令属于重量级验证流程，需在 TUI 外部运行。", "exit_code": 2, "execution_mode": "heavyweight"}
+{"command": ["history"], "command_id": "history", "status": "success", "summary": "已读取最近命令历史。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["history"], "command_id": "history", "status": "success", "summary": "已读取最近命令历史。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["quality"], "command_id": "quality-gate", "status": "blocked", "summary": "quality 命令属于重量级验证流程，需在 TUI 外部运行。", "exit_code": 2, "execution_mode": "heavyweight"}
+{"command": ["status"], "command_id": "status", "status": "success", "summary": "已收集当前平台状态。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["capabilities"], "command_id": "capabilities", "status": "success", "summary": "已列出 collectors 与 diagnosers。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["help"], "command_id": "help", "status": "success", "summary": "已生成命令目录与说明。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["status"], "command_id": "status", "status": "success", "summary": "已收集当前平台状态。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["diagnose", "fusion"], "command_id": "diagnose-fusion", "status": "success", "summary": "已完成融合诊断。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["quality"], "command_id": "quality-gate", "status": "blocked", "summary": "quality 命令属于重量级验证流程，需在 TUI 外部运行。", "exit_code": 2, "execution_mode": "heavyweight"}
+{"command": ["history"], "command_id": "history", "status": "success", "summary": "已读取最近命令历史。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["history"], "command_id": "history", "status": "success", "summary": "已读取最近命令历史。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["quality"], "command_id": "quality-gate", "status": "blocked", "summary": "quality 命令属于重量级验证流程，需在 TUI 外部运行。", "exit_code": 2, "execution_mode": "heavyweight"}
+{"command": ["status"], "command_id": "status", "status": "success", "summary": "已收集当前平台状态。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["quality"], "command_id": "quality-gate", "status": "blocked", "summary": "quality 命令属于重量级验证流程，需在 TUI 外部运行。", "exit_code": 2, "execution_mode": "heavyweight"}
+{"command": ["history"], "command_id": "history", "status": "success", "summary": "已读取最近命令历史。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["capabilities"], "command_id": "capabilities", "status": "success", "summary": "已列出 collectors 与 diagnosers。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["help"], "command_id": "help", "status": "success", "summary": "已生成命令目录与说明。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["status"], "command_id": "status", "status": "success", "summary": "已收集当前平台状态。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["diagnose", "fusion"], "command_id": "diagnose-fusion", "status": "success", "summary": "已完成融合诊断。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["history"], "command_id": "history", "status": "success", "summary": "已读取最近命令历史。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["quality"], "command_id": "quality-gate", "status": "blocked", "summary": "quality 命令属于重量级验证流程，需在 TUI 外部运行。", "exit_code": 2, "execution_mode": "heavyweight"}
+{"command": ["status"], "command_id": "status", "status": "success", "summary": "已收集当前平台状态。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["help"], "command_id": "help", "status": "success", "summary": "已生成命令目录与说明。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["doctor"], "command_id": "doctor", "status": "success", "summary": "已完成平台体检。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["inspect"], "command_id": "inspect", "status": "success", "summary": "已完成平台巡检。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["workflow"], "command_id": "workflow", "status": "success", "summary": "已列出 workflow 资产。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["report"], "command_id": "report", "status": "success", "summary": "已整理报告资产入口。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["settings"], "command_id": "settings", "status": "success", "summary": "已展示当前只读设置说明。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["inspect", "workspace"], "command_id": "inspect-workspace", "status": "success", "summary": "已完成工作区巡检。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["doctor", "ros2"], "command_id": "doctor-ros2", "status": "success", "summary": "已完成 ROS2 体检。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["quality"], "command_id": "quality-gate", "status": "blocked", "summary": "quality 命令属于重量级验证流程，需在 TUI 外部运行。", "exit_code": 2, "execution_mode": "heavyweight"}
+{"command": ["unknown"], "command_id": null, "status": "not_implemented", "summary": "暂未实现该命令执行入口： ['unknown']", "exit_code": 1, "execution_mode": "lightweight"}
+{"command": ["status"], "command_id": "status", "status": "success", "summary": "已收集当前平台状态。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["help"], "command_id": "help", "status": "success", "summary": "已生成命令目录与说明。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["status"], "command_id": "status", "status": "success", "summary": "已收集当前平台状态。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["doctor"], "command_id": "doctor", "status": "success", "summary": "已完成平台体检。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["status"], "command_id": "status", "status": "success", "summary": "已收集当前平台状态。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["history"], "command_id": "history", "status": "success", "summary": "已读取最近命令历史。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["settings"], "command_id": "settings", "status": "success", "summary": "已展示当前只读设置说明。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["status"], "command_id": "status", "status": "success", "summary": "已收集当前平台状态。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["inspect", "workspace"], "command_id": "inspect-workspace", "status": "success", "summary": "已完成工作区巡检。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["inspect", "graph"], "command_id": "inspect-graph", "status": "success", "summary": "已完成运行图巡检。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["inspect", "tf"], "command_id": "inspect-tf", "status": "success", "summary": "已完成 TF 巡检。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["inspect", "controller"], "command_id": "inspect-controller", "status": "success", "summary": "已完成控制器巡检。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["doctor", "ros2"], "command_id": "doctor-ros2", "status": "success", "summary": "已完成 ROS2 体检。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["doctor", "workspace"], "command_id": "doctor-workspace", "status": "success", "summary": "已完成工作区体检。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["doctor", "tf"], "command_id": "doctor-tf", "status": "success", "summary": "已完成 TF 体检。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["doctor", "control"], "command_id": "doctor-control", "status": "success", "summary": "已完成控制器体检。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["suggest-fix", "runtime"], "command_id": "suggest-fix-runtime", "status": "success", "summary": "已生成 runtime 图修复建议。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["suggest-fix", "tf"], "command_id": "suggest-fix-tf", "status": "success", "summary": "已生成 TF 修复建议。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["suggest-fix", "controller"], "command_id": "suggest-fix-controller", "status": "success", "summary": "已生成控制器修复建议。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["trace", "failure"], "command_id": "trace-failure", "status": "success", "summary": "已追踪当前主要失败线索。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["replay", "evidence"], "command_id": "replay-evidence", "status": "success", "summary": "已整理 evidence replay 入口。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["replay", "workflow"], "command_id": "replay-workflow", "status": "success", "summary": "已整理 workflow replay 入口。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["compare", "snapshots"], "command_id": "compare-snapshots", "status": "success", "summary": "已生成关键快照对比摘要。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["doctor"], "command_id": "doctor", "status": "success", "summary": "已完成平台体检。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["inspect"], "command_id": "inspect", "status": "success", "summary": "已完成平台巡检。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["history"], "command_id": "history", "status": "success", "summary": "已读取最近命令历史。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["workflow"], "command_id": "workflow", "status": "success", "summary": "已列出 workflow 资产。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["report"], "command_id": "report", "status": "success", "summary": "已整理报告资产入口。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["settings"], "command_id": "settings", "status": "success", "summary": "已展示当前只读设置说明。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["help"], "command_id": "help", "status": "success", "summary": "已生成命令目录与说明。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["status"], "command_id": "status", "status": "success", "summary": "已收集当前平台状态。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["collect", "env"], "command_id": "quick-env-collect", "status": "success", "summary": "已完成环境采集。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["collect", "workspace"], "command_id": "collect-workspace", "status": "success", "summary": "已完成工作区采集。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["collect", "graph"], "command_id": "collect-graph", "status": "success", "summary": "已完成运行图采集。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["collect", "tf"], "command_id": "collect-tf", "status": "success", "summary": "已完成 TF 采集。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["collect", "controller"], "command_id": "collect-controller", "status": "success", "summary": "已完成控制器采集。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["diagnose", "env"], "command_id": "diagnose-env", "status": "success", "summary": "已完成环境诊断。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["diagnose", "workspace"], "command_id": "diagnose-workspace", "status": "success", "summary": "已完成工作区诊断。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["diagnose", "runtime"], "command_id": "diagnose-runtime", "status": "success", "summary": "已完成 runtime 图诊断。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["diagnose", "tf"], "command_id": "diagnose-tf", "status": "success", "summary": "已完成 TF 诊断。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["diagnose", "controller"], "command_id": "diagnose-controller", "status": "success", "summary": "已完成控制器诊断。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["inspect", "workspace"], "command_id": "inspect-workspace", "status": "success", "summary": "已完成工作区巡检。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["inspect", "graph"], "command_id": "inspect-graph", "status": "success", "summary": "已完成运行图巡检。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["inspect", "tf"], "command_id": "inspect-tf", "status": "success", "summary": "已完成 TF 巡检。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["inspect", "controller"], "command_id": "inspect-controller", "status": "success", "summary": "已完成控制器巡检。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["doctor", "ros2"], "command_id": "doctor-ros2", "status": "success", "summary": "已完成 ROS2 体检。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["doctor", "workspace"], "command_id": "doctor-workspace", "status": "success", "summary": "已完成工作区体检。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["doctor", "tf"], "command_id": "doctor-tf", "status": "success", "summary": "已完成 TF 体检。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["doctor", "control"], "command_id": "doctor-control", "status": "success", "summary": "已完成控制器体检。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["suggest-fix", "runtime"], "command_id": "suggest-fix-runtime", "status": "success", "summary": "已生成 runtime 图修复建议。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["suggest-fix", "tf"], "command_id": "suggest-fix-tf", "status": "success", "summary": "已生成 TF 修复建议。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["suggest-fix", "controller"], "command_id": "suggest-fix-controller", "status": "success", "summary": "已生成控制器修复建议。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["trace", "failure"], "command_id": "trace-failure", "status": "success", "summary": "已追踪当前主要失败线索。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["replay", "evidence"], "command_id": "replay-evidence", "status": "success", "summary": "已整理 evidence replay 入口。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["replay", "workflow"], "command_id": "replay-workflow", "status": "success", "summary": "已整理 workflow replay 入口。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["compare", "snapshots"], "command_id": "compare-snapshots", "status": "success", "summary": "已生成关键快照对比摘要。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["diagnose", "fusion"], "command_id": "diagnose-fusion", "status": "success", "summary": "已完成融合诊断。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["benchmark", "recovery"], "command_id": "benchmark-recovery", "status": "success", "summary": "已读取 recovery benchmark 入口资产。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["runbook", "list"], "command_id": "runbook-list", "status": "success", "summary": "已列出 runbook 与 broken workflow 资产。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["profile", "install"], "command_id": "profile-install", "status": "success", "summary": "已完成 demo profile 安装。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["profile", "verify"], "command_id": "profile-verify", "status": "success", "summary": "已检查 profile 安装状态。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["logs", "deployment"], "command_id": "logs-deployment", "status": "success", "summary": "已读取部署执行日志。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["help"], "command_id": "help", "status": "success", "summary": "已生成命令目录与说明。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["status"], "command_id": "status", "status": "success", "summary": "已收集当前平台状态。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["collect", "env"], "command_id": "quick-env-collect", "status": "success", "summary": "已完成环境采集。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["help"], "command_id": "help", "status": "success", "summary": "已生成命令目录与说明。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["status"], "command_id": "status", "status": "success", "summary": "已收集当前平台状态。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["help"], "command_id": "help", "status": "success", "summary": "已生成命令目录与说明。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["status"], "command_id": "status", "status": "success", "summary": "已收集当前平台状态。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["doctor"], "command_id": "doctor", "status": "success", "summary": "已完成平台体检。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["inspect"], "command_id": "inspect", "status": "success", "summary": "已完成平台巡检。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["history"], "command_id": "history", "status": "success", "summary": "已读取最近命令历史。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["workflow"], "command_id": "workflow", "status": "success", "summary": "已列出 workflow 资产。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["workflow"], "command_id": "workflow", "status": "success", "summary": "已列出 workflow 资产。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["report"], "command_id": "report", "status": "success", "summary": "已整理报告资产入口。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["settings"], "command_id": "settings", "status": "success", "summary": "已展示当前只读设置说明。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["quality"], "command_id": "quality-gate", "status": "blocked", "summary": "quality 命令属于重量级验证流程，需在 TUI 外部运行。", "exit_code": 2, "execution_mode": "heavyweight"}
+{"command": ["collect", "tf"], "command_id": "collect-tf", "status": "success", "summary": "已完成 TF 采集。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["diagnose", "workspace"], "command_id": "diagnose-workspace", "status": "success", "summary": "已完成工作区诊断。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["doctor", "control"], "command_id": "doctor-control", "status": "success", "summary": "已完成控制器体检。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["profile", "verify"], "command_id": "profile-verify", "status": "success", "summary": "已检查 profile 安装状态。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["profile", "install"], "command_id": "profile-install", "status": "success", "summary": "已完成 demo profile 安装。", "exit_code": 0, "execution_mode": "lightweight"}
+{"command": ["replay", "workflow"], "command_id": "replay-workflow", "status": "success", "summary": "已整理 workflow replay 入口。", "exit_code": 0, "execution_mode": "lightweight"}

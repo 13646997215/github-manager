@@ -1,0 +1,41 @@
+# ros2-agent profile config template
+
+model:
+  default: anthropic/claude-sonnet-4
+  provider: openrouter
+
+agent:
+  max_turns: 90
+
+terminal:
+  backend: local
+  cwd: ~/ros2_ws
+  timeout: 180
+
+memory:
+  memory_enabled: true
+  user_profile_enabled: true
+
+approvals:
+  mode: smart
+
+checkpoints:
+  enabled: true
+
+compression:
+  enabled: true
+  threshold: 0.50
+  target_ratio: 0.20
+
+display:
+  show_cost: true
+  tool_progress: true
+
+delegation:
+  max_iterations: 50
+
+tts:
+  provider: edge
+
+stt:
+  enabled: false

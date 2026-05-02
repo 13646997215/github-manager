@@ -1,0 +1,5 @@
+{
+  "frame_count": 8,
+  "stale_frames": [],
+  "missing_chains": ["map->odom->base_link"]
+}

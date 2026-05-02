@@ -1,0 +1,26 @@
+{
+  "nodes": [
+    {
+      "name": "talker",
+      "namespace": "/demo",
+      "publishers": 1,
+      "subscribers": 0
+    },
+    {
+      "name": "listener",
+      "namespace": "/demo",
+      "publishers": 0,
+      "subscribers": 1
+    }
+  ],
+  "topics": [
+    {
+      "name": "/chatter",
+      "msg_type": "std_msgs/msg/String",
+      "publisher_count": 1,
+      "subscriber_count": 1
+    }
+  ],
+  "warnings": [],
+  "next_actions": ["inspect_runtime_health"]
+}

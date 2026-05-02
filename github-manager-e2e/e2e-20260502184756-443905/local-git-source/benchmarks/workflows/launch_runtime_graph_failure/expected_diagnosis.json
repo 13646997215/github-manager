@@ -1,0 +1,7 @@
+{
+  "name": "launch_runtime_graph_failure",
+  "category": "workflow",
+  "expected_candidates": ["critical_sensor_not_consumed"],
+  "expected_next_probe": "verify_sensor_pipeline",
+  "verification": "确认关键传感器 topic 获得消费者或 pipeline 被修复"
+}

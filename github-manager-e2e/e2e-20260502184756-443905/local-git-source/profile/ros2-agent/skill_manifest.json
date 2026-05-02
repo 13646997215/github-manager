@@ -1,0 +1,10 @@
+{
+  "skills": [
+    "skills/ros2-colcon-build-troubleshoot",
+    "skills/ros2-environment-bootstrap",
+    "skills/ros2-launch-debug",
+    "skills/ros2-launch-reasoning-coach",
+    "skills/ros2-runtime-debug-teaching",
+    "skills/ros2-workspace-diagnose"
+  ]
+}

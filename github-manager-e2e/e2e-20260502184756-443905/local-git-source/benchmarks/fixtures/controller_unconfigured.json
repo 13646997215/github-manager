@@ -1,0 +1,10 @@
+{
+  "controllers": [
+    {
+      "name": "arm_controller",
+      "state": "unconfigured",
+      "claimed_interfaces": 0,
+      "required_interfaces": 6
+    }
+  ]
+}

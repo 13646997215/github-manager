@@ -1,0 +1,5 @@
+{
+  "name": "ROS2-Agent Dev",
+  "build": { "dockerfile": "../Dockerfile" },
+  "workspaceFolder": "/workspace/ROS2-Agent"
+}

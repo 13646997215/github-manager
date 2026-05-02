@@ -1,0 +1,12 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "RuntimeEvidenceBundle",
+  "type": "object",
+  "properties": {
+    "environment": {"type": ["object", "null"]},
+    "workspace": {"type": ["object", "null"]},
+    "topics": {"type": "array"},
+    "tf": {"type": ["object", "null"]},
+    "controller": {"type": ["object", "null"]}
+  }
+}

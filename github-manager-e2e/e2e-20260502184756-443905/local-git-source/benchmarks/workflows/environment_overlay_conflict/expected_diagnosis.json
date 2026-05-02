@@ -1,0 +1,7 @@
+{
+  "name": "environment_overlay_conflict",
+  "category": "workflow",
+  "expected_candidates": ["environment_mismatch"],
+  "expected_next_probe": "recheck_shell_environment",
+  "verification": "ROS_DISTRO 与 overlay/source 顺序修复后不再出现 mismatch"
+}

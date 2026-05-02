@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>demo_nodes</name>
+  <version>0.0.1</version>
+  <description>Minimal example package for ROS2-Agent demo workspace.</description>
+  <maintainer email="demo@example.com">ROS2-Agent</maintainer>
+  <license>MIT</license>
+  <buildtool_depend>ament_python</buildtool_depend>
+  <exec_depend>rclpy</exec_depend>
+</package>

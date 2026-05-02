@@ -1,0 +1,7 @@
+{
+  "name": "tf_controller_interaction_failure",
+  "category": "workflow",
+  "expected_candidates": ["controller_activation_failure", "critical_tf_chain_missing"],
+  "expected_next_probe": "inspect_controller_manager_logs",
+  "verification": "controller active 且关键 TF chain 恢复后，top cause 应变化"
+}

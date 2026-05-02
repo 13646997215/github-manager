@@ -1,0 +1,38 @@
+# Byte-compiled / optimized / cache
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Test / coverage / pytest
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# IDE / editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Local runtime outputs
+*.log
+
+# Python build artifacts
+build/
+dist/
+*.egg-info/
+
+# Repository-local generated outputs (keep placeholders, ignore future machine outputs)
+benchmarks/reports/*.json
+benchmarks/reports/*.md.tmp
+examples/transcripts/*.tmp

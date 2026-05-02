@@ -1,0 +1,4 @@
+{
+  "tf": {"missing_chains": ["map->odom->base_link"], "stale_frames": []},
+  "controller": {"controllers": [{"name": "arm_controller", "state": "inactive", "claimed_interfaces": 4, "required_interfaces": 6}]}
+}

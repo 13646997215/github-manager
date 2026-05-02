@@ -1,0 +1,32 @@
+{
+  "controllers": [
+    {
+      "name": "joint_state_broadcaster",
+      "state": "active",
+      "claimed_interfaces": 0
+    },
+    {
+      "name": "arm_controller",
+      "state": "inactive",
+      "claimed_interfaces": 0,
+      "required_interfaces": [
+        "joint1/position",
+        "joint2/position"
+      ]
+    }
+  ],
+  "tf": {
+    "frame_count": 14,
+    "stale_frames": [
+      "tool0"
+    ]
+  },
+  "warnings": [
+    "controller_activation_failed:arm_controller",
+    "hardware_interface_not_claimed"
+  ],
+  "next_actions": [
+    "inspect_controller_manager_logs",
+    "verify_hardware_interface_exports"
+  ]
+}
